@@ -1,6 +1,6 @@
 ## Description
 ---
-This takes in any gltf file and then extracts the model data including the following in the following order
+This takes in any gltf file and then extracts the model data including the following in the respective order
  - position
  - normal
  - texcoords
