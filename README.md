@@ -10,5 +10,7 @@ This takes in any gltf file and then extracts the model data including the follo
 
 ## to be done:
 ---
- - [ ] put in bone positions and rotations
- - [ ] extract features
+ - [x] put in bone positions and rotations
+ - [x] extract features
+ - [ ] Check how the bones are structured and organized, and how the bone indicies are ordered, if the bones need to be organized in a specific order, this includes the bones enum in character.h
+ - [ ] 
