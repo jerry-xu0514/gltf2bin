@@ -7,6 +7,8 @@ This takes in any gltf file and then extracts the model data including the follo
  - triangle indicies
  - bone weights
  - bone indicies
+ - bone rest position
+ - bone rest rotation
 
 ## to be done:
 ---
