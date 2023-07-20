@@ -4,6 +4,9 @@
 #include <iostream>
 #include <iostream>
 
+#include "character.h"
+#include "array.h"
+
 using namespace std;
 
 void read(unsigned int &size, FILE* f)
@@ -13,10 +16,8 @@ void read(unsigned int &size, FILE* f)
 
 int main()
 {
-    unsigned int first, second, third;
-    FILE* f = fopen("character.bin", "rb");
-    read(first, f);
-    read(second, f);
-    read(third, f);
-    cout << first << " " << second << " " << third << endl;
+    character character_data;
+    character_load(character_data, "./character.bin");
+    cout << character_data.triangles.size << endl;
+    for(int i = 10000; i < 11000; i++) cout << character_data.triangles(i) << endl;
 }
